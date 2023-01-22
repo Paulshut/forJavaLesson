@@ -1,7 +1,7 @@
 package ls.task2;
 
 public class First {
-    //global
+    //global variable
 
     byte bt1;
     short sh1;
@@ -22,7 +22,7 @@ public class First {
     Boolean bool1;
 
     public static void main(String[] args) {
-        //local
+        //local variable
 
         byte bt2 = 2;
         short sh2 = 23;
@@ -79,7 +79,7 @@ public class First {
         Character chart1;
         Boolean bool1;
 
-        //создал экзепляр класса Second, иницилизировал и вывел переменные
+        //create object from class Second, initialization and output variables
 
         Second second = new Second();
 
@@ -110,7 +110,7 @@ public class First {
         System.out.println("****************"); //разделение строк между классами
 
 
-        // create new class
+        // create new class and initialization variable with wrapper
 
         Second second2 = new Second();
 

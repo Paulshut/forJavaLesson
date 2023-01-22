@@ -30,20 +30,23 @@ public class First {
         long lg2 = 3456L;
         float fl2 = 34.5F;
         double dbl2 = 3456.45;
-        char ch2 = '3';
+        char ch2 = 6;
         boolean bl2 = true;
 
         byte bt3;
         short sh3;
         int in3;
-        int num;
+        int num1;
+        int num2;
+        int num3;
         long lg3;
         float fl3;
         double dbl3;
         char ch3;
         boolean bl3;
 
-        //Экспиремент с присвоением переменных друг в друга
+        //Экспиремент с присвоением переменных с разным типом друг в друга
+        System.out.println("Присвоение переменных с разными типом друг в друга:");
 
         sh3 = bt2;
         System.out.println("присвоение byte в shot =  " + sh3);
@@ -54,33 +57,34 @@ public class First {
         lg3 = in2;
         System.out.println("присвоение int в long = " + lg3);
 
-        num = ch2;
-        System.out.println("присвоение char в int = " + num);
+        num1 = ch2;
+        System.out.println("присвоение char в int = " + num1);
+
+        num2 = (int)dbl2;
+        System.out.println("присвоение double в int = " + num2);
+
+        num3 = (int)fl2;
+        System.out.println("присвоение float в int = " + num3);
 
         dbl3 = fl2;
-        System.out.println("присвоение float в double = " + dbl3);
-
-        System.out.println("****************"); //разделение строк
+        System.out.println("присвоение float в double = " + dbl3 + "\n");
 
 
 
 
-
-
-
-
-
-        Byte byt1;
-        Short shr1;
-        Integer number1;
-        Long lon1;
-        Float flt1;
-        Double db1;
-        Character chart1;
-        Boolean bool1;
+        // Определние и иницилизация оболочек а так же их вывод
+        Byte bit8 = 8;
+        Short shorty = 12;
+        Integer numb = 2345;
+        Long length = 123445050L;
+        Float swimDot = 45.5F;
+        Double lsDot = 45.67;
+        Character character = '3';
+        Boolean lying = false;
 
         //create object from class Second, initialization and output variables
 
+        System.out.println("Определение и иницилизация переменных:");
         Second second = new Second();
 
         second.setBt((byte)(10));
@@ -105,12 +109,14 @@ public class First {
         System.out.println(second.getLg());
 
         second.setBl(false);
-        System.out.println(second.isBl());
+        System.out.println(second.isBl() + "\n");
 
-        System.out.println("****************"); //разделение строк между классами
+
 
 
         // create new class and initialization variable with wrapper
+
+        System.out.println("Оболчки:");
 
         Second second2 = new Second();
 

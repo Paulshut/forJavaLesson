@@ -97,39 +97,99 @@ public class Rainbow {
         }
         System.out.println(changeColor1 + changeColor2);
     }
-// попытка создания метода вывода полуцветов с помощью switch
+
+    // попытка создания метода вывода полуцветов с помощью switch
     public void getSetColorSwitch() {
         int cases;
-        System.out.println("Выбирете номер полуцвета:");
+        System.out.println("Для выбора номера полуцвета, введите две цифры от 1 до 7:");
         Scanner scan = new Scanner(System.in);
         cases = scan.nextInt();
 
         switch (cases) {
-            case 11:
-                System.out.println(HALF_RED + RED);
-                break;
             case 12:
-                System.out.println(HALF_ORANGE + ORANGE);
+            case 21:
+                System.out.println(HALF_RED + ORANGE);
                 break;
             case 13:
+            case 31:
                 System.out.println(HALF_RED + YELLOW);
                 break;
             case 14:
-                System.out.println(HALF_ORANGE + GREEN);
+            case 41:
+                System.out.println(HALF_RED + GREEN);
                 break;
             case 15:
-                 System.out.println(HALF_RED + LIGHT_BLUE);
-                 break;
+            case 51:
+                System.out.println(HALF_RED + LIGHT_BLUE);
+                break;
             case 16:
+            case 61:
                 System.out.println(HALF_RED + BlUE);
                 break;
             case 17:
+            case 71:
                 System.out.println(HALF_RED + VIOLET);
                 break;
-
+            case 23:
+            case 32:
+                System.out.println(HALF_ORANGE + YELLOW);
+                break;
+            case 24:
+            case 42:
+                System.out.println(HALF_ORANGE + GREEN);
+                break;
+            case 25:
+            case 52:
+                System.out.println(HALF_ORANGE + LIGHT_BLUE);
+                break;
+            case 26:
+            case 62:
+                System.out.println(HALF_ORANGE + BlUE);
+                break;
+            case 27:
+            case 72:
+                System.out.println(HALF_ORANGE + VIOLET);
+                break;
+            case 34:
+            case 43:
+                System.out.println(HALF_YELLOW + GREEN);
+                break;
+            case 35:
+            case 53:
+                System.out.println(HALF_YELLOW + LIGHT_BLUE);
+                break;
+            case 36:
+            case 63:
+                System.out.println(HALF_YELLOW + BlUE);
+                break;
+            case 37:
+            case 73:
+                System.out.println(HALF_YELLOW + VIOLET);
+                break;
+            case 45:
+            case 54:
+                System.out.println(HALF_LIGHT_BLUE + GREEN);
+                break;
+            case 46:
+            case 64:
+                System.out.println(HALF_LIGHT_BLUE + BlUE);
+                break;
+            case 47:
+            case 74:
+                System.out.println(HALF_LIGHT_BLUE + VIOLET);
+                break;
+            case 56:
+            case 65:
+                System.out.println(HALF_BLUE + BlUE);
+                break;
+            case 67:
+            case 76:
+                System.out.println(HALF_BLUE + VIOLET);
+                break;
 
             default:
-                System.out.println("Не правильно выбран цвет");;
+                System.out.println("Не правильно выбран цвет");
+
         }
 
 

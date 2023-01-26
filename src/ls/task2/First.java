@@ -42,8 +42,8 @@ public class First {
         long lg3;
         float fl3;
         double dbl3;
-        char ch3;
-        boolean bl3;
+
+
 
         //Экспиремент с присвоением переменных с разным типом друг в друга
         System.out.println("Присвоение переменных с разными типом друг в друга:");
@@ -72,7 +72,7 @@ public class First {
 
 
 
-        // Определние и иницилизация оболочек а так же их вывод
+        // Объявление и иницилизация оболочек
         Byte bit8 = 8;
         Short shorty = 12;
         Integer numb = 2345;
@@ -84,7 +84,7 @@ public class First {
 
         //create object from class Second, initialization and output variables
 
-        System.out.println("Определение и иницилизация переменных:");
+        System.out.println("Объявление и иницилизация переменных:");
         Second second = new Second();
 
         second.setBt((byte)(10));

@@ -18,7 +18,7 @@ public class Matrix {
     private String[] secondlyDiagonal = new String[10];
     private String[] unitedArray = new String[20];
 
-    public void start() {
+    public  void start() {
         createMatrix();         // Создает матрицу со случайными значениями
         getBasicDiagonal();     // Получить прямую диагональ
         getSecondaryDiagonal(); // Получить побочную диагональ

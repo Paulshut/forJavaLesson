@@ -18,7 +18,7 @@ public class Matrix {
     private String[] secondlyDiagonal = new String[10];
     private String[] unitedArray = new String[20];
 
-    public  void start() {
+    public void start() {
         createMatrix();         // Создает матрицу со случайными значениями
         getBasicDiagonal();     // Получить прямую диагональ
         getSecondaryDiagonal(); // Получить побочную диагональ
@@ -115,7 +115,7 @@ public class Matrix {
     }
 
     private void showNumberResult() {
-        int i =0;
+        int i = 0;
         for (int result : parseDouble()) {
             System.out.print(result);
             if (i < parseDouble().length - 1) {
@@ -129,8 +129,8 @@ public class Matrix {
         String join = Arrays.toString(getOnlyString());
         StringBuilder stringBuilder = new StringBuilder(join);
         System.out.println(stringBuilder);
-
     }
+
 
     public void showMatrix() {
         for (int i = 0; i < matrix.length; i++) {
@@ -141,7 +141,7 @@ public class Matrix {
         }
     }
 
-    private void compareArrays(){
+    private void compareArrays() {
         basicDiagonal.equals(secondlyDiagonal);
     }
 

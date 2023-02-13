@@ -8,7 +8,6 @@ public class Robot {
     private String nameRobot;
     private String nameBody;
     private String nameHead;
-    private Body[] bodies2 = new Body[2];
 
     public Robot() {
         this.nameRobot = getNameRobot();

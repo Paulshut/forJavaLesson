@@ -139,7 +139,7 @@ public class MyArrayList<T> implements MyList<T> {
     @Override
     public T get(int index) {
         if (index > getSize()) {
-            System.out.println("Объекта с таким индекс нет");
+            System.out.println("Объекта с таким индексом нет");
 
         }
         return (T) objects[index];

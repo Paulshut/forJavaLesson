@@ -1,0 +1,1 @@
+Order:  id =4bcf93a9-ccd5-4ecb-9cf6-ba743b64cf42 = 34901, date =Thu Mar 02 22:54:44 MSK 2023 Товары =[ Product{, id=82529 nameProduct='мяч', date=Thu Mar 02 22:54:44 MSK 2023},  Product{, id=12301 nameProduct='кукла', date=Thu Mar 02 22:54:47 MSK 2023}]
